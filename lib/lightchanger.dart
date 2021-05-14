@@ -124,8 +124,6 @@ class _LightChangerState extends State<LightChanger> {
   MqttBrowserClient client;
   MqttConnectionState connectionState;
 
-  StreamSubscription subscription;
-
   // create some values
   Color pickerColor = Color(0xff443a49);
   Color currentColor = Color(0xff443a49);
